@@ -1,13 +1,12 @@
 .footer{
     width: 100vw;
-    height: 27rem;
+    height: 29rem;
     background-color: $color-footer;
     font-family: $font-paragraph;
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-
     &__div{
         width:2.5rem;
         height: 2.5rem;
@@ -15,16 +14,38 @@
         border-radius: 50%;
         display:flex;
         justify-content: center;
-        z-index: 1;
-        margin-bottom: 2rem;
+        align-items: center;
+        margin-bottom: 1rem;
+        transform: translateY(-50%);
         }
+    &__navR{
+        text-align: center;
+        padding-bottom:2.3rem;
+        
+    }
+    &__navL{
+        text-align: center;
+    }
     }  
-    .footer__navR{
+    .footer__link{
         font-family: $font-paragraph;
         font-size: 16px;
         text-transform: uppercase;
         color:$color-letters1;
         text-decoration: none;
+        line-height: 1.8rem;
+    }
+    .footer__copy{
+        font-family: $font-paragraph;
+        font-size: 14px;
+        color:$color-letters1;
+        line-height: 2rem; 
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2.5rem;
+        &--span{
+            color: rgb(245, 58, 58);
+        }
     }  
 
 
