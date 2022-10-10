@@ -1,0 +1,30 @@
+.footer{
+    width: 100vw;
+    height: 27rem;
+    background-color: $color-footer;
+    font-family: $font-paragraph;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    &__div{
+        width:2.5rem;
+        height: 2.5rem;
+        background-color: $color-letters1;
+        border-radius: 50%;
+        display:flex;
+        justify-content: center;
+        z-index: 1;
+        margin-bottom: 2rem;
+        }
+    }  
+    .footer__navR{
+        font-family: $font-paragraph;
+        font-size: 16px;
+        text-transform: uppercase;
+        color:$color-letters1;
+        text-decoration: none;
+    }  
+
+

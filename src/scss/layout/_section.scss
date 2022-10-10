@@ -1,0 +1,45 @@
+.section {
+  width: 100vw;
+  height: 25rem;
+  padding-top: 4rem;
+  background-color: $color-section;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+
+  &__small {
+    font-size: 14px;
+    font-family: $font-paragraph;
+    color: $color-letters4;
+  }
+  &__h2 {
+    font-family: $font-title;
+    font-weight: bold;
+    font-size: 24px;
+    color: $color-letters2;
+    margin-top: 1rem;
+  }
+  &__p {
+    font-family: $font-paragraph;
+    font-size: 18px;
+    color: $color-letters3;
+    line-height: 2rem;
+    margin-top: 1.3rem;
+  }
+
+  &__div {
+    font-family: $font-paragraph;
+    font-size: 20px;
+    font-weight: bold;
+    width: 4rem;
+    height: 2.5rem;
+    color: $color-button;
+    border-width: 2px;
+    border-style: solid;
+    border-color: $color-button;
+    border-radius: 11rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+  }
+}

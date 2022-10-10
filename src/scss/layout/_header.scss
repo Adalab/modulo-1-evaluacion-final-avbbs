@@ -1,0 +1,19 @@
+.header__nav{
+  background-color: $color-header;
+  width: 2rem;
+  height: 1.5rem;
+  padding-bottom: 0.2rem;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  top:0;
+  left:0;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  z-index: 1;
+}
+
+.icon {
+  width: 1.1rem;
+  
+}
