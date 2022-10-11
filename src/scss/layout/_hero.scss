@@ -10,6 +10,9 @@
   justify-content: flex-end;
   align-items: center;
   padding-bottom: 1.8rem;
+  @media all and (min-width: 768px) {
+    padding-bottom: 1.2rem;
+  }
 
   &__h1 {
     font-size: 42px;
@@ -18,6 +21,14 @@
     text-align: center;
     line-height: 3.5rem;
     word-spacing: 100vw;
+    @media all and (min-width: 768px) {
+      font-size: 80px;
+      line-height: 6rem;
+    }
+    @media all and (min-width: 1200px) {
+      font-size: 100px;
+      line-height: 8rem;
+    }
   }
 
   &__p {
@@ -25,6 +36,19 @@
     font-size: 16px;
     font-family: $font-paragraph;
     margin-bottom: 2rem;
+    @media all and (min-width: 768px) {
+      font-size: 24px;
+      width: 20ch;
+      line-height: 2rem;
+      text-align: center;
+      margin-bottom: 0.5rem;
+    }
+    @media all and (min-width: 1200px) {
+      font-family: $font-paragraph;
+      margin-bottom: 2rem;
+      width: 28ch;
+      padding-top: 0.1rem;
+    }
   }
   &__div {
     width: 2.5rem;
@@ -34,9 +58,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    @media all and (min-width: 768px) {
+      margin-bottom: 0.5rem;
+    }
   }
   &--image {
     width: 1.1rem;
+    @media all and (min-width: 1200px) {
+      width: 1.2rem;
+    }
   }
 }

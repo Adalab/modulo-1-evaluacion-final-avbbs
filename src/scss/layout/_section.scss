@@ -5,11 +5,22 @@
   background-color: $color-section;
   padding-left: 0.8rem;
   padding-right: 0.8rem;
+  @media all and (min-width: 768px) {
+    height: 19rem;
+    padding: 2rem 2.6rem 0 2.6rem;
+  }
+  @media all and (min-width: 1200px) {
+    height: 21rem;
+    padding: 4rem 14rem 0 14rem;
+  }
 
   &__small {
     font-size: 14px;
     font-family: $font-paragraph;
     color: $color-letters4;
+    @media all and (min-width: 1200px) {
+      font-size: 16px;
+    }
   }
   &__h2 {
     font-family: $font-title;
@@ -17,6 +28,13 @@
     font-size: 24px;
     color: $color-letters2;
     margin-top: 1rem;
+    @media all and (min-width: 768px) {
+      font-size: 26px;
+      padding-bottom: 1rem;
+    }
+    @media all and (min-width: 1200px) {
+      font-size: 32px;
+    }
   }
   &__p {
     font-family: $font-paragraph;
@@ -24,6 +42,10 @@
     color: $color-letters3;
     line-height: 2rem;
     margin-top: 1.3rem;
+    @media all and (min-width: 768px) {
+      font-size: 20px;
+      line-height: 1.7rem;
+    }
   }
 
   &__div {
@@ -41,5 +63,11 @@
     justify-content: center;
     align-items: center;
     margin-top: 1.5rem;
+    @media all and (min-width: 768px) {
+      width: 5.5rem;
+    }
+    @media all and (min-width: 1200px) {
+      width: 9rem;
+    }
   }
 }
